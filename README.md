@@ -1,8 +1,8 @@
-# 🐋 noconname/tor
+# ![alt text](https://i.postimg.cc/BZKvDKWT/70c224d4-2db4-43a1-a898-7f4367b6b656-1.jpg) noconname/tor
 
 > Lightweight TOR relay image (13.37 MB), based on [Alpine Linux] Configurations can be passed as environment variables.
 
-[![dockeri.co](https://dockeri.co/image/noconname/tor)](https://hub.docker.com/r/noconmame/tor)
+[![dockeri.co](https://dockeri.co/image/noconname/tor)](https://hub.docker.com/repository/docker/noconname/tor)
 
 ## Usage
 
@@ -96,5 +96,5 @@ MIT
 
 <p align="center">
   Don't forget to 🌟 Star 🌟 the repo if you like this Docker image !<br/>
-  <a href="https://github.com/null-lab/tor-relay-docker/issues/new">Your feedback is appreciated</a>
+  <a href="https://github.com/NocONName/tor/issues/new">Your feedback is appreciated</a>
 </p>
