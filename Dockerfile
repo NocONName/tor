@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-LABEL maintainer "Irraz <irraz@r2brain.com>"
+LABEL maintainer "NcN <tor@noconname.org>"
 
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_DATA_HOME="/config" \
@@ -19,7 +19,7 @@ ENV RELAY_TYPE relay
 ENV TOR_ORPort 9001
 ENV TOR_DirPort 9030
 ENV TOR_DataDirectory /data
-ENV TOR_ContactInfo "irraz irraz@r2brain.com"
+ENV TOR_ContactInfo "NcN tor@noconname.org"
 ENV TOR_RelayBandwidthRate "100 KBytes"
 ENV TOR_RelayBandwidthBurst "200 KBytes"
 
