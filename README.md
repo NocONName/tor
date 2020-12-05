@@ -96,5 +96,5 @@ MIT
 
 <p align="center">
   Don't forget to 🌟 Star 🌟 the repo if you like this Docker image !<br/>
-  <a href="https://github.com/null-lab/tor-relay-docker/issues/new">Your feedback is appreciated</a>
+  <a href="https://github.com/NocONName/tor/issues/new">Your feedback is appreciated</a>
 </p>
