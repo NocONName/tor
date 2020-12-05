@@ -2,7 +2,7 @@
 
 > Lightweight TOR relay image (13.37 MB), based on [Alpine Linux] Configurations can be passed as environment variables.
 
-[![dockeri.co](https://dockeri.co/image/noconname/tor)](https://hub.docker.com/r/noconmame/tor)
+[![dockeri.co](https://dockeri.co/image/noconname/tor)](https://hub.docker.com/repository/docker/noconname/tor)
 
 ## Usage
 
