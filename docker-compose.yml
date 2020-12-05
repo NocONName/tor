@@ -5,10 +5,12 @@ services:
         environment:
             - RELAY_TYPE=exit
             - TOR_ORPort=9001
-            - TOR_DirPort=9030
-            - TOR_Nickname=ididnteditheconfig
+            - TOR_DirPort=80
+            - TOR_Nickname=noconname
+            - TOR_ContactInfo="NcN tor@noconname.org"
             - TOR_RelayBandwidthRate="100 KBytes"
             - TOR_RelayBandwidthBurst="200 KBytes"
+            - TOR_DirPortFrontPage="/data/index.html"
             - TZ=Europe/London
             - PUID=$$(id -u)
             - PGID=$$(id -g)
@@ -16,7 +18,7 @@ services:
             - '$PWD/tor/data:/data:Z'
         ports:
             - '9001:9001'
-            - '9030:9030'
+            - '80:80'
         entrypoint:
             - /entrypoint.sh
         restart: always
