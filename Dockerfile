@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.12.4
 
 LABEL maintainer "NcN <tor@noconname.org>"
 
@@ -9,7 +9,7 @@ ENV TZ America/Los_Angeles
 
 RUN sed -i -e 's/v[[:digit:]]\..*\//edge\//g' /etc/apk/repositories
 RUN apk update
-RUN apk --no-cache add bash tzdata tor=0.4.4.7-r0
+RUN apk --no-cache add bash tzdata tor=0.4.5.6-r0
 
 EXPOSE 9001 9030
 
